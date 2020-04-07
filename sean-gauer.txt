@@ -1,0 +1,102 @@
+   
+    https://codepen.io/gmansland/pen/dyYbPGw  
+    
+    1. What is Semantic HTML? puts meaning behind your content so its easy for computers and humans to read 
+
+    2. What is HTML used for?  HTML is short for Hypertext Markup Language. HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web. Each page contains a series of connections to other pages called hyperlinks 
+
+    3. What is an attribute and where do we put it? Define additional characteristics of properties of the element they go in the css area 
+
+    4. What is the h1 tag used for? How many times should I use it on a page? Used once the main header 
+
+    5. Name two tags that have required attributes width and height 
+
+    6. What do we put in the head of our HTML document? <HTML> <head>
+
+    7. What is an id? Goes on a element to perform certain task 
+
+    8. What elements can I add an id to? html 
+
+    9. How many times can I use the same id on a page? once 
+
+    10. What is a class? Attribute which specifies one or more class names of an html element 
+
+    11. What elements can I add a class to? html 
+
+    12. How many times can I use the same class on a page? multi 
+
+    13. How do I get my link to open in a new tab? Target =”_blank” 
+
+    14. What is the alt attribute in the image tag used for? Alternative information for an image if the image cannot be viewed by user 
+
+    15. How do I reference an id? #id 
+
+    16. What is the difference between a section and a div. The section tag defines sections in a doc like chapters, headers, footers, were div tag defines a division in a html doc. 
+
+    17. What is CSS used for? To define styles for your webpage 
+
+    18. How to we select an element? Example - every h2 on the page, h2 {} 
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. Class can go on mulit elements where a id can only go on one.  
+
+    20. How do we select classes in CSS? .class 
+
+    21. How do we select a p element with a single class of “human””? P human {} 
+
+    22. What is a parent child selector? When would this be useful? Parent is top child is sub useful when u want to change everything there. 
+
+    23. How do you select all links within a div with the class of sidebar? .class sidebar {} 
+
+    24. What is a pseudo selector? Specifies a special state of the selected elements. Like change color when hover over item. 
+
+    25. What do we use the change the spacing between lines? Line-height 
+
+    26. What do we use to change the spacing between letters? Letter-spacing 
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? 
+
+    28. How do I add a 1px border around my div that is dotted and black? Border 5px dotted black 
+
+    29. How do I select everything on the page? * 
+
+    30. How do I write a comment in CSS?// 
+
+    31. How do I find out what file I am in, when I am using the command line? ls 
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?ls 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? Rm because cant undo 
+
+    34. Why should I use version control? To keep track of changes.  
+
+    35. How often should I commit to github? often 
+
+    36. What is the command we would use to push our repo up to github? Git push 
+
+    37. Walk me through Lambda's git flow. https://www.notion.so/GitFlow-step-by-step-a764163309754e23b1b9c4077b1653cc
+
+  Webpage= Fork, copy,  
+
+ GitBash= git c lone url, cd, git checkout –b name, git add . , git commit –m “message”, git push,  
+
+ Webpage=  branch: master, new pull request, change base repository to your forked repo,   add tl to reviewers submit pull request. Do not merge.  
+
+ 
+
+ 
+
+    Stretch Questions 
+
+ 
+
+ 
+
+    1. What is the difference between an inline element and a block element? You can not put block elements inside inline elements. Inline elements do not force a new line to begin in the doc flow. Block elements on the other hand cause a line break to occur.  
+
+    2. What happens when an element is positioned absolutely? Its fixed 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?  
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default 
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?  html elements are boxes 4 layers of each box. Margin, border, padding, content.   
